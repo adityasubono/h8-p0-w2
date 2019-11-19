@@ -1,0 +1,147 @@
+1. Newton Second Law
+Deskripsi :
+Hukum Newton adalah Hukum ini menggambarkan hubungan 
+antara gaya yang bekerja pada suatu benda dan gerak 
+yang disebabkannya. Secara matematis hukum II Newton 
+dirumuskan sebagai berikut: ΣF = m x a, dimana :
+ΣF = resultan gaya (Newton)
+m = massa benda (kg)
+a = percepatan benda (m/s2)
+
+Diketahui :
+m = 600 kg
+a = 2 (m/s2)
+
+Tujuan :
+Mencari ΣF resultan gaya (Newton) itu berapa ?
+
+Algoritma Newton Second Law
+1. Mulai
+2. Buat function resultanGaya 
+3. Inisial terlebih dahulu nilai massa benda (m)
+4. Inisial terlebih dahulu nilai percepatan benda (a)
+5. Tentukan rumus Hukum Newton ΣF = m x a
+6. Masukan nilai m = 600 Kg
+7. Masukan nilai a = 2 m/s2
+8. Kalikan m x a ( 600 * 2 )
+9. Hasil resultan gaya ΣF = 1200 Kg.m/S2
+10. Selesai
+
+Psaudecode Newton Second Law
+
+START
+FUNCTION resultanGaya 
+INITIALIZE masa benda (m)
+INITIALIZE percepatan benda (a)
+INITIALIZE resultan gaya (F)
+   INPUT m equal 600
+   INPUT a equal 2
+      COUNT  F equal m multiply with a 
+      COUNT  F equal 1200
+      DISPLAY Resultan Gaya F equal 1200 Kg.m/s2
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+2. Tahun Kabisat
+Deskripsi:
+Tahun kabisat adalah merupakan tahun yang mengalami penambahan
+satu hari dengan tujuan untuk menyesuaikan penanggalan dengan tahun astronomi.
+Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+- Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+- Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+Tujuan :
+Ingin mengetahui tahun 2019 ini adalah tahun kabisat atau bukan.
+
+Algoritma Tahun Kabisat:
+1. Mulai
+2. Buat Function tahunKabisat
+3. Angka tahun yang kita pakai 2019
+4. Hitung angka tahun 2019
+5. Apakah 2019 habis dibagi 4 --> TIDAK
+6. Apakah 2019 tidak habis 100 --> YA 
+7. Cek alternatif lain
+8. Apakah 2019 habis dibagi 4 --> TIDAK 
+9. Apakah 2019 habis dibagi 100 --> TIDAK
+10. Apakah 2019 habis dibagi 400 --> TIDAK
+11. Kesimpulan tahun 2019 bukan tahun kabisat
+12. Selesai
+
+Psaudecode Tahun Kabisat
+1. START
+2. FUNCTION tahunKabisat
+3. INITIALIZE tahun 
+4.      INPUT tahun equal 2019
+5.            IF tahun division 4 is zero
+6.                 AND tahun division is not zero 
+7.            OR tahun division 4 is ZERO 
+8.                 AND tahun division 100 is zero
+9.                 AND tahun division 400 is zero
+10.                    DISPLAY Tahun Kabisat
+11.           ELSE
+12.                    DISPLAY Bukan Tahun Kabisat
+13. END
+
+///////////////////////////////////////////////////////////////////////////////////////////
+3. Loundry Day
+Deskripsi :
+Disini ada teman kita nama Foxie yang akan mencuci pakaiannya hari ini.
+Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. 
+Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Tujuan :
+Membantu mbak Foxie menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci.
+
+Algoritma Loundry Day
+1. Mulai
+2. Buat Function LoundryDay
+3. Foxie masukan pakai kedalam mesin cuci
+4. Mesin cuci akan menghitung jumlah pakai yang dimaksukan
+5. Mesin cuci akan memberi peringatan bila dimasukan pakaian kurang dari 20 
+5. Mesin cuci akan berjalan apabila kapasistas maximal 20 pakaian 
+6. Mesin cuci sudah mencapai batas kapasistas maka mesin cuci berjalan
+7. Selesai
+
+Psaudecode Loundry Day
+1. START
+2. FUCNTION LoundryDay
+3. INITIALIZE jumlah_pakaian
+4. INITIALIZE sisa_pakaian
+5.       INPUT jumlah_pakaian 
+6.               IF jumlah_pakaian less than 20 
+7.                  COUNT sisa_pakaian equal 20 min jumlah_pakaian 
+8.                  DISPLAY Jumlah pakai yang masuk 
+9.          ELSE IF jumlah_pakaian equal to 20
+10.                 DISPLAY Mesin Cuci Penuh
+11.       ELSE IF jumlah_pakaian equal to 0
+12.                 DISPLAY Mesin Cuci Kosong
+13. END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+4. Periksa Kuku
+Deskripsi :
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. 
+Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi 
+tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Tujuan :
+Mencari siswa yang memiliki kuku panjang
+
+Algoritma Siswa Berkuku Panjang
+1. Mulai
+2. 40 Siswa disuruh berbaris satu-satu
+3. Bu guru mulai mengecek kuku jari siswa satu persatu
+4. Jika ditemukan kuku jari siswa maka siswa tersebut akan dihukum
+5. Jika tidak ditemukan kuku panjang maka siswa diberi pujian
+6. Selesai
+
+Psaudecode Siswa Berkuku Panjang
+1. START
+2. INITIALIZE siswa
+3.     WHILE siswa less than to equal 40
+4.         IF siswa equal to "kuku panjang"
+5.         DISPLAY siswa dihukum
+6.         ELSE
+7.         DISPLAY siswa dipuji
+8. END
