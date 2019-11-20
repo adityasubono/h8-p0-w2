@@ -1,45 +1,44 @@
-function switchCaseTahun(){
-    var tanggal=22;
-    var bulan=12;
-    var tahun=2019;
+function switchCaseTahun() {
+    var tanggal = 22;
+    var bulan = 2;
+    var tahun = 2019;
     switch (bulan) {
-        case(1) :
-            bulan ='Januari';
+        case (1):
+            bulan = 'Januari';
             break;
-        case(2) :
-            bulan ='Februari';
+        case (2):
+            bulan = 'Februari';
             break;
-        case(3) :
-            bulan ='Maret';
+        case (3):
+            bulan = 'Maret';
             break;
-        case(4) :
-            bulan ='April';
+        case (4):
+            bulan = 'April';
             break;
-        case(5) :
-            bulan ='Mei';
+        case (5):
+            bulan = 'Mei';
             break;
-        case(6) :
-            bulan ='Juni';
+        case (6):
+            bulan = 'Juni';
             break;
-        case(7) :
-            bulan ='Juli';
+        case (7):
+            bulan = 'Juli';
             break;
-        case(8) :
-            bulan ='Agustus';
+        case (8):
+            bulan = 'Agustus';
             break;
-        case(9) :
-            bulan ='September';
+        case (9):
+            bulan = 'September';
             break;
-        case(10) :
-            bulan ='Oktober';
+        case (10):
+            bulan = 'Oktober';
             break;
-        case(11) :
-            bulan ='November';
+        case (11):
+            bulan = 'November';
             break;
-        case(12) :
-            bulan ='Desember';
+        case (12):
+            bulan = 'Desember';
     }
-    console.log(tanggal+" "+bulan+" "+tahun);
+    console.log(tanggal + " " + bulan + " " + tahun);
 }
-
 switchCaseTahun();

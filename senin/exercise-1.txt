@@ -17,7 +17,7 @@ Mencari ΣF resultan gaya (Newton) itu berapa ?
 
 Algoritma Newton Second Law
 1. Mulai
-2. Buat function resultanGaya 
+2. Buat function resultanGaya
 3. Inisial terlebih dahulu nilai massa benda (m)
 4. Inisial terlebih dahulu nilai percepatan benda (a)
 5. Tentukan rumus Hukum Newton ΣF = m x a
@@ -30,14 +30,13 @@ Algoritma Newton Second Law
 Psaudecode Newton Second Law
 
 START
-FUNCTION resultanGaya 
+CREATE FUNCTION resultanGaya
 INITIALIZE masa benda (m)
 INITIALIZE percepatan benda (a)
 INITIALIZE resultan gaya (F)
    INPUT m equal 600
    INPUT a equal 2
-      COUNT  F equal m multiply with a 
-      COUNT  F equal 1200
+      SET  F to m multiply with a
       DISPLAY Resultan Gaya F equal 1200 Kg.m/s2
 END
 
@@ -70,14 +69,14 @@ Algoritma Tahun Kabisat:
 
 Psaudecode Tahun Kabisat
 1. START
-2. FUNCTION tahunKabisat
-3. INITIALIZE tahun 
+2. CREATE FUNCTION tahunKabisat
+3. INITIALIZE tahun
 4.      INPUT tahun equal 2019
-5.            IF tahun division 4 is zero
-6.                 AND tahun division is not zero 
-7.            OR tahun division 4 is ZERO 
-8.                 AND tahun division 100 is zero
-9.                 AND tahun division 400 is zero
+5.            IF tahun divided by 4 is zero
+6.                 AND tahun divided by 100 is not zero
+7.            OR tahun divided by 4 is ZERO
+8.                 AND tahun divided by 100 is zero
+9.                 AND tahun divided by 400 is zero THEN
 10.                    DISPLAY Tahun Kabisat
 11.           ELSE
 12.                    DISPLAY Bukan Tahun Kabisat
@@ -105,16 +104,16 @@ Algoritma Loundry Day
 
 Psaudecode Loundry Day
 1. START
-2. FUCNTION LoundryDay
+2. CREATE FUNCTION LoundryDay
 3. INITIALIZE jumlah_pakaian
 4. INITIALIZE sisa_pakaian
 5.       INPUT jumlah_pakaian 
-6.               IF jumlah_pakaian less than 20 
-7.                  COUNT sisa_pakaian equal 20 min jumlah_pakaian 
-8.                  DISPLAY Jumlah pakai yang masuk 
-9.          ELSE IF jumlah_pakaian equal to 20
+6.               IF jumlah_pakaian less than 20 THEN
+7.                  SET sisa_pakaian equal 20 minus jumlah_pakaian
+8.                  DISPLAY Jumlah pakaian yang masuk
+9.          ELSE IF jumlah_pakaian equal to 20 THEN
 10.                 DISPLAY Mesin Cuci Penuh
-11.       ELSE IF jumlah_pakaian equal to 0
+11.       ELSE IF jumlah_pakaian equal to 0 THEN
 12.                 DISPLAY Mesin Cuci Kosong
 13. END
 
@@ -140,7 +139,7 @@ Psaudecode Siswa Berkuku Panjang
 1. START
 2. INITIALIZE siswa
 3.     WHILE siswa less than to equal 40
-4.         IF siswa equal to "kuku panjang"
+4.         IF siswa equal to "kuku panjang" THEN
 5.         DISPLAY siswa dihukum
 6.         ELSE
 7.         DISPLAY siswa dipuji
