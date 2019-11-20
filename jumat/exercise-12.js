@@ -1,8 +1,8 @@
 //konversi menit
 function konversiMenit(menit) {
-    var jam = parseInt (menit/60);
-    var menit1 = menit%60;
-    var menit2 = '';
+    let jam = parseInt(menit / 60);
+    let menit1 = menit % 60;
+    let menit2 = '';
     if(menit1<10) {
         menit2 = '0'+menit1;
     } else {

@@ -1,7 +1,7 @@
 //balik kata
 function balikKata(kata) {
-    var reverse = '';
-    for(i=kata.length-1 ; i>=0; i--) {
+    let reverse = '';
+    for(let i=kata.length-1 ; i>=0; i--) {
         reverse +=kata[i];
     }
     return reverse;
