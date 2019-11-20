@@ -1,31 +1,26 @@
-//1. Menyusun Barisan Bintang
-console.log("1. Menyusun Barisan Bintang");
-var rows1=5;
-for(i=1;i<=rows1;i++){
-    console.log('*');
+// tugas 1 menampilkan "Halo Function!" di console
+function  shoutOut() {
+    return 'Halo Function!';
 }
+console.log(shoutOut());
 
-//2. Menyusun Barisan Bintang Dengan Nested Looping
-console.log("2. Menyusun Barisan Bintang Dengan Nested Looping");
-var rows2=5;
-var star2='';
-for(i=1;i<=rows2;i++){
-    for(j=rows2;j>=1;j--) {
-        star2 += '*';
-    }
-    star2+='\n'
+//tugas 2 calculate multiply
+function calculateMultiply(num1, num2) {
+    return num1 * num2;
 }
-console.log(star2);
+var num1 = 5;
+var num2 = 6;
+var hasilPerkalian = calculateMultiply(num1,num2);
+console.log(hasilPerkalian);
 
-//3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
-console.log("3. Menyusun Barisan Tangga Bintang Dengan Nested Looping");
-var rows3=5;
-var star3='';
-for(i=1;i<=5;i++){
-    for(j=1;j<=i;j++) {
-        star3 += '*';
-    }
-    star3+='\n';
-
+//tugas 3
+function processSentence(name,age,address,hobby) {
+    return "Nama saya "+name+", umur saya "+age+", alamat saya di "+address+",dan saya punya hobby yaitu "+hobby+"!"
 }
-console.log(star3);
+var name = "Agus";
+var age = 30;
+var address = "Jln. Malioboro, Yogjakarta";
+var hobby = "gaming";
+
+var fullSentence = processSentence(name,age,address,hobby);
+console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
