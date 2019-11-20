@@ -1,17 +1,15 @@
 // X dan O
 function xo(str) {
-    var x = '';
-    var o = '';
+    var x = 0;
+    var o = 0;
 
     for(i=0; i <str.length;i++){
         if(str[i] === 'x'){
-            x++;
+            x=x+1;
         } else {
-            o++;
+            o=o+1;
         }
-    }
-    
-    return x === o;
+    } return x === o;
 }
 
 // TEST CASES

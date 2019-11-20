@@ -1,14 +1,14 @@
 //konversi menit
 function konversiMenit(menit) {
     let jam = parseInt(menit / 60);
-    let menit1 = menit % 60;
-    let menit2 = '';
-    if(menit1<10) {
-        menit2 = '0'+menit1;
+    let konversiMenit = menit % 60;
+    let hasilMenit = '';
+    if(konversiMenit<10) {
+        hasilMenit = '0'+konversiMenit;
     } else {
-        menit2 = menit1;
+        hasilMenit = konversiMenit;
     }
-    return jam+ ':'+menit2;
+    return jam+ ':'+hasilMenit;
 }
 
 // TEST CASES
