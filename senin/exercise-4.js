@@ -1,7 +1,8 @@
-function switchCaseTahun() {
-    var tanggal = 22;
-    var bulan = 2;
-    var tahun = 2019;
+//Menggunakan Switch-Case
+
+var tanggal = 22;
+var bulan = 12;
+var tahun = 2019;
     switch (bulan) {
         case (1):
             bulan = 'Januari';
@@ -40,5 +41,4 @@ function switchCaseTahun() {
             bulan = 'Desember';
     }
     console.log(tanggal + " " + bulan + " " + tahun);
-}
-switchCaseTahun();
+

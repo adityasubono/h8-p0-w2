@@ -6,7 +6,7 @@ for(i=1;i<=rows1;i++){
 }
 
 //2. Menyusun Barisan Bintang Dengan Nested Looping
-console.log("2. Menyusun Barisan Bintang Dengan Nested Looping");
+console.log("\n2. Menyusun Barisan Bintang Dengan Nested Looping");
 var rows2=5;
 var star2='';
 for(i=1;i<=rows2;i++){
