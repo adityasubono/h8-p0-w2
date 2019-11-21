@@ -1,6 +1,6 @@
 //konversi menit
 function konversiMenit(menit) {
-    let jam = parseInt(menit / 60);
+    let jam = Math.trunc(menit / 60);
     let konversiMenit = menit % 60;
     let hasilMenit = '';
     if(konversiMenit<10) {
