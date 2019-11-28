@@ -29,16 +29,16 @@ console.log('\n');
 let m = 1;
 while (m <= 100) {
     if (m % 2 === 0) {
-        console.log('Counter Anda Nomer '+ m +' Genap');
+        console.log('Counter Anda Nomer ' + m + ' Genap');
     } else {
-        console.log('Counter Anda Nomer '+ m +' Ganjil');
+        console.log('Counter Anda Nomer ' + m + ' Ganjil');
     }
     m++;
 }
 
 //pertambahan counter 2
 console.log("\nPertambahan counter 2 kelipatan 3")
-for (counter = 1; counter <= 100; counter=counter + 2) {
+for (counter = 1; counter <= 100; counter = counter + 2) {
     if (counter % 3 === 0) {
         console.log(counter + " kelipatan 3");
     } else console.log("\"\"");
@@ -46,7 +46,7 @@ for (counter = 1; counter <= 100; counter=counter + 2) {
 
 //pertambahan counter 5
 console.log("\nPertambahan counter 5 kelipatan 6")
-for (counter = 1; counter <= 100; counter=counter + 5) {
+for (counter = 1; counter <= 100; counter = counter + 5) {
     if (counter % 6 === 0) {
         console.log(counter + " kelipatan 6");
     } else console.log("\"\"");
@@ -54,7 +54,7 @@ for (counter = 1; counter <= 100; counter=counter + 5) {
 
 //pertambahan counter 5
 console.log("\nPertambahan counter 9 kelipatan 10")
-for (counter = 1; counter <= 100; counter=counter + 9) {
+for (counter = 1; counter <= 100; counter = counter + 9) {
     if (counter % 10 === 0) {
         console.log(counter + " kelipatan 10");
     } else console.log("\"\"");
